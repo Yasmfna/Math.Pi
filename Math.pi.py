@@ -1,5 +1,6 @@
 print ("FICHIER DE CALCUL DE FONCTION MATHEMATIQUE")
 
+#fonction de Fibonacci 
 def Fibonacci(n):
     if n<= 0:
         print("Incorrect input")
@@ -12,6 +13,7 @@ def Fibonacci(n):
     else:
         return Fibonacci(n-1)+Fibonacci(n-2)
  
+#on entre la valeur ici
 n = int(input("Entrer un nombre ,afin de calculer son fibonnacci :"))
  
 print(Fibonacci(n))
